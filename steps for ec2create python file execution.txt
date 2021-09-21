@@ -1,0 +1,20 @@
+step 1:
+Create an IAM user with programatic access
+	remeber the AK and SAK
+step 2: Attach appriapriate policy with appropriate permissions to IAM user created in step 1
+
+step 3: Ensure Python version > 3.6 and install AWS Python SDK using
+	pip install boto3
+	pip install logger
+
+step 4: configure the credentials on your own machine
+	cd %userprofile%
+	create a directory with name .aws and get into
+	create two credentials and config
+	set appropriate values in the created file
+
+step 5: create the ec2create.py file
+
+step 6: execute the python file, then you should find the instance
+	being created in Management console.
+
