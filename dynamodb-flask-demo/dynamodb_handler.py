@@ -1,32 +1,10 @@
-# import boto3
 from boto3 import client, resource
 from botocore.credentials import InstanceMetadataProvider, InstanceMetadataFetcher
 
-provider = InstanceMetadataProvider(iam_role_fetcher=InstanceMetadataFetcher(timeout=1000, num_attempts=2))
-creds = provider.load().get_frozen_credentials()
+REGION_NAME = "us-east-1"
 
-
-AWS_ACCESS_KEY_ID     = creds.access_key
-AWS_SECRET_ACCESS_KEY = creds.secret_key
-REGION_NAME           = "us-east-1"
-# AWS_SESSION_TOKEN     = creds.token
-
-client = client(
-    'dynamodb',
-    aws_access_key_id     = AWS_ACCESS_KEY_ID,
-    aws_secret_access_key = AWS_SECRET_ACCESS_KEY,
-    region_name           = REGION_NAME,
-    # aws_session_token     = AWS_SESSION_TOKEN,
-)
-
-resource = resource(
-    'dynamodb',
-    aws_access_key_id     = AWS_ACCESS_KEY_ID,
-    aws_secret_access_key = AWS_SECRET_ACCESS_KEY,
-    region_name           = REGION_NAME,
-    # aws_session_token     = AWS_SESSION_TOKEN,
-)
-# BookTable = DynamoDB.Table('Book')
+client = client('dynamodb',region_name = REGION_NAME)
+resource = resource('dynamodb',region_name = REGION_NAME)# BookTable = DynamoDB.Table('Book')
 
 '''
     https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.create_table
