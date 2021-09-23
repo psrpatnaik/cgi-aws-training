@@ -1,0 +1,5 @@
+https://acloudguru.com/blog/engineering/event-driven-architecture-with-sqs-and-aws-lambda
+
+https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html
+
+https://aws.amazon.com/getting-started/hands-on/building-serverless-applications-with-amazon-aurora-serverless/
