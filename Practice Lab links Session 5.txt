@@ -1,0 +1,8 @@
+https://docs.docker.com/engine/reference/builder/#from
+
+https://docs.docker.com/engine/reference/commandline/cli/
+
+Practice Lab 1: https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/
+
+
+Practice Lab 2: https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/
