@@ -1,0 +1,4 @@
+Push the sample apache logs at 
+https://github.com/psrpatnaik/cgi-aws-training/tree/main/sample-apache-logs to s3 bucket of your choice
+
+https://www.wellarchitectedlabs.com/security/200_labs/200_remote_configuration_installation_and_viewing_cloudwatch_logs/8_query_from_athena/
