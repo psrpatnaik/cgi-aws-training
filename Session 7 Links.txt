@@ -1,0 +1,5 @@
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-gs.html
+
+https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/welcome.html
+
+https://www.youtube.com/watch?v=3cLDIidAxtE
