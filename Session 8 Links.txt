@@ -1,0 +1,31 @@
+https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials.html
+
+In session:
+https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-s3.html
+https://docs.aws.amazon.com/codepipeline/latest/userguide/samples/SampleApp_Linux.zip
+
+Elastic Bean Stalk
+
+https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-simple-codecommit.html
+https://docs.aws.amazon.com/codepipeline/latest/userguide/samples/SampleApp_Linux.zip
+Sample application for linux 
+
+
+===========================
+
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.Next.html
+
+https://aws.amazon.com/blogs/devops/complete-ci-cd-with-aws-codecommit-aws-codebuild-aws-codedeploy-and-aws-codepipeline/
+
+https://github.com/awslabs/aws-devops-essential
+
+=====USER data for codedeploy on Linux EC2========
+#!/bin/bash
+yum -y update
+yum install -y ruby
+yum install -y aws-cli
+cd /home/ec2-user
+wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
+chmod +x ./install
+./install auto
+
